@@ -1,0 +1,20 @@
+{
+    "name": "Quisave",
+    "description": "A Safari extension to save the current tab URL and copied text.",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": [
+      "activeTab",
+      "tabs",
+      "storage",
+      "clipboardRead",
+      "clipboardWrite"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "safx.html",
+      "default_icon": "safexicon.jpg"
+    }
+  }

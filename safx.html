@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="safx.css">
+</head>
+<body >
+    
+    <div class="header_container">
+        <div class="header_leftside">
+        <div class="logo"> <img src="utilities/Applogo.svg" />
+        </div>
+        </div>
+        <div class="header_rightside">
+            <div id="copyallitem" class="copyall"><img src="utilities/copyall.svg" /></div>
+            <div id= "deleteallitem" class ="deleteall"><img src="utilities/deleteall.svg" /></div>
+        </div>
+
+    </div>
+
+    <div class="second_section">
+        <div class="viewbuttons">
+            <button id="view-links" class="iconbtn"><img src="utilities/linkbtnicon.svg" /><p>Links <span class="alert" id="url-count">0</span></p></button>
+            <button id="view-texts" class="iconbtn"><img src="utilities/notesbtnicon.svg" /><p>Notes<span class="alert" id="text-count">0</span></p></button>
+        </div>
+        <div class="addbuttons">
+            <button id="save-url" class="iconbtn2"><img src ="utilities/addbtnicon.svg" /> <p>Link</p> </button>
+            <button id="paste-text"class ="iconbtn2"><img src ="utilities/addbtnicon.svg" /> <p>Note</p></button>
+        </div>
+
+    </div>
+
+    <div class = "content_section">
+        <div class="state">
+            <p id="status"></p>
+        </div>
+        <div class="content_saved">
+            <ul id="saved-contents"></ul>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="safx.js"></script>
+</body>
